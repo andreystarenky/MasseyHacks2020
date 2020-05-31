@@ -1,0 +1,3 @@
+**testrun.py is not the official program, please check "hand.py" under the main folder
+
+Some 3D graphic assets were imported from the unity AssetStore

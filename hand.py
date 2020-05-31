@@ -87,7 +87,7 @@ def segment(image, threshold=25):
                 file.close()
 
         except:
-            print("bruh")
+            print("debug - file being accessed")
 
 
 
