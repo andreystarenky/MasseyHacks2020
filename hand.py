@@ -79,7 +79,7 @@ def segment(image, threshold=25):
 
 
         #writeDir = "movement"
-        writeDir = "C:\\Users\\andre_am3qt87\\GoogleVRProject\\Assets\\movement"
+        writeDir = "Assets\\movement"
 
         try:
             with open(writeDir, 'w', ) as file:
@@ -94,7 +94,7 @@ def segment(image, threshold=25):
         return (thresholded, segmented)
 
 def exit_handler():
-    writeDir = "C:\\Users\\andre_am3qt87\\GoogleVRProject\\Assets\\movement"
+    writeDir = "Assets\\movement"
 
     try:
         with open(writeDir, 'w', ) as file:
